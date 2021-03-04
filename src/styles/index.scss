@@ -11,3 +11,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+body{
+    background: black;
+    margin: 50px auto;
+}
+.card{
+    background: rgb(128,128,128, .3);
+    width: 100px;
+    height: 150px;
+}
+#title{
+    opacity: 1;
+    color:white;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 60px;
+    margin: auto 0;
+    text-align: center;
+}
